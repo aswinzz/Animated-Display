@@ -8,4 +8,4 @@ It is made using python as a part of learning python.
 - Enter Your Name and see the magic :wink:
 
 # Screens
-![scrs](scrs.png)
+![scrs](srcs.png)
