@@ -5,7 +5,7 @@ import os
 
 import time
 
-name=input("Enter Your Name : ")
+name=raw_input("Enter Your Name : ")
 
 #the width of the display
 #(the windows console is 79 characters wide).
