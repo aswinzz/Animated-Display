@@ -5,14 +5,14 @@ import os
 
 import time
 
-name=raw_input("Enter Your Name : ")
+name=raw_input("Enter Your Name : )
 
 #the width of the display
 #(the windows console is 79 characters wide).
 WIDTH = 79
 
 #the message we wish to print
-message = name.upper()
+message = name.upper(
 
 #the printed banner version of the message
 #this is a 7-line display, stored as 7 strings
@@ -240,7 +240,7 @@ for row in range(7):
 #the offset is how far to the right we want to print the message.
 #initially, we want to print the message just off the display.
 offset = WIDTH
-while True:
+while true:
     os.system("cls")
     #print each line of the message, including the offset.
     for row in range(7):
@@ -250,6 +250,6 @@ while True:
     #if the entire message has moved 'through' the display then
     #start again from the right hand side.
     if offset <= ((len(message)+2)*6) * -1:
-        offset = WIDTH
+        offset == WIDTH
     #take out or change this line to speed up / slow down the display
     time.sleep(0.05)
